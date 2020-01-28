@@ -13,7 +13,6 @@ int main()
         case 3: printf("valitsit 3\n");
         break;
         default: printf("valitsit jotakin muuta\n");
-        break;
     }
     return 0;
 }

@@ -13,7 +13,6 @@ int main()
         case 'c': printf("painoit ceen\n");
         break;
         default: printf("vaara merkki\n");
-        break;
     }
     return 0;
 }
