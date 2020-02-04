@@ -2,16 +2,11 @@
 
 int main()
 {
-    int salanum;
-    printf("salanumero?\n");
-    scanf("%d",&salanum);
-    if (salanum == 17){
-        printf("oikein\n");
-        return 0;
-    }
-    if (salanum != 17){
-        printf("vaarin meni\n");
-        main();
-    }
+    int salanum=0;
+    do {
+        printf("salanumero\n");
+        scanf("%d",&salanum);
+    } while (salanum!=17);
+    printf("oikein!\n");
     return 0;
 }
