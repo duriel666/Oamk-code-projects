@@ -1,7 +1,7 @@
+#include <stdio.h>
 
 int tulostaValikko();
 void nelio();
-void ympyra();
 float lueArvo(char msg[]);
 
 int main()
